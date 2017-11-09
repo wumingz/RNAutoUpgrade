@@ -1,0 +1,5 @@
+rootProject.name = 'AutoUpgradeDemo'
+
+include ':app'
+include ':react-native-autoupgrade'
+project(':react-native-autoupgrade').projectDir = new File(rootProject.projectDir, '../native_modules/autoupdate/android')

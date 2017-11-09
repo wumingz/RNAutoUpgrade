@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB5E3591F78F218008C8FB5 /* FileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5E3581F78F1CE008C8FB5 /* FileHash.m */; };
+		0AFB007A1F6F9DD300225B16 /* BSDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB004A1F6F9DD300225B16 /* BSDiff.m */; };
+		0AFB007B1F6F9DD300225B16 /* bspatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB004C1F6F9DD300225B16 /* bspatch.c */; };
+		0AFB007C1F6F9DD300225B16 /* RNAutoupdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB004F1F6F9DD300225B16 /* RNAutoupdate.m */; };
+		0AFB007D1F6F9DD300225B16 /* RNAutoupgradeDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00511F6F9DD300225B16 /* RNAutoupgradeDownloader.m */; };
+		0AFB007E1F6F9DD300225B16 /* RNAutoupgradeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00531F6F9DD300225B16 /* RNAutoupgradeManager.m */; };
+		0AFB007F1F6F9DD300225B16 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00581F6F9DD300225B16 /* aescrypt.c */; };
+		0AFB00801F6F9DD300225B16 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00591F6F9DD300225B16 /* aeskey.c */; };
+		0AFB00811F6F9DD300225B16 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB005B1F6F9DD300225B16 /* aestab.c */; };
+		0AFB00821F6F9DD300225B16 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB005F1F6F9DD300225B16 /* entropy.c */; };
+		0AFB00831F6F9DD300225B16 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00611F6F9DD300225B16 /* fileenc.c */; };
+		0AFB00841F6F9DD300225B16 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00631F6F9DD300225B16 /* hmac.c */; };
+		0AFB00851F6F9DD300225B16 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00651F6F9DD300225B16 /* prng.c */; };
+		0AFB00861F6F9DD300225B16 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00671F6F9DD300225B16 /* pwd2key.c */; };
+		0AFB00871F6F9DD300225B16 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00691F6F9DD300225B16 /* sha1.c */; };
+		0AFB00881F6F9DD300225B16 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB006F1F6F9DD300225B16 /* ioapi.c */; };
+		0AFB00891F6F9DD300225B16 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00711F6F9DD300225B16 /* mztools.c */; };
+		0AFB008A1F6F9DD300225B16 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00731F6F9DD300225B16 /* unzip.c */; };
+		0AFB008B1F6F9DD300225B16 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00751F6F9DD300225B16 /* zip.c */; };
+		0AFB008C1F6F9DD300225B16 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB00781F6F9DD300225B16 /* SSZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AB5E3571F78F1CE008C8FB5 /* FileHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHash.h; sourceTree = "<group>"; };
+		0AB5E3581F78F1CE008C8FB5 /* FileHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileHash.m; sourceTree = "<group>"; };
+		0AFB00491F6F9DD300225B16 /* BSDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDiff.h; sourceTree = "<group>"; };
+		0AFB004A1F6F9DD300225B16 /* BSDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDiff.m; sourceTree = "<group>"; };
+		0AFB004C1F6F9DD300225B16 /* bspatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bspatch.c; sourceTree = "<group>"; };
+		0AFB004D1F6F9DD300225B16 /* bspatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bspatch.h; sourceTree = "<group>"; };
+		0AFB004E1F6F9DD300225B16 /* RNAutoupdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAutoupdate.h; sourceTree = "<group>"; };
+		0AFB004F1F6F9DD300225B16 /* RNAutoupdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutoupdate.m; sourceTree = "<group>"; };
+		0AFB00501F6F9DD300225B16 /* RNAutoupgradeDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAutoupgradeDownloader.h; sourceTree = "<group>"; };
+		0AFB00511F6F9DD300225B16 /* RNAutoupgradeDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutoupgradeDownloader.m; sourceTree = "<group>"; };
+		0AFB00521F6F9DD300225B16 /* RNAutoupgradeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAutoupgradeManager.h; sourceTree = "<group>"; };
+		0AFB00531F6F9DD300225B16 /* RNAutoupgradeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutoupgradeManager.m; sourceTree = "<group>"; };
+		0AFB00561F6F9DD300225B16 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		0AFB00571F6F9DD300225B16 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		0AFB00581F6F9DD300225B16 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		0AFB00591F6F9DD300225B16 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		0AFB005A1F6F9DD300225B16 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		0AFB005B1F6F9DD300225B16 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		0AFB005C1F6F9DD300225B16 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		0AFB005D1F6F9DD300225B16 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		0AFB005E1F6F9DD300225B16 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		0AFB005F1F6F9DD300225B16 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		0AFB00601F6F9DD300225B16 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		0AFB00611F6F9DD300225B16 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		0AFB00621F6F9DD300225B16 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		0AFB00631F6F9DD300225B16 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		0AFB00641F6F9DD300225B16 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		0AFB00651F6F9DD300225B16 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		0AFB00661F6F9DD300225B16 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		0AFB00671F6F9DD300225B16 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		0AFB00681F6F9DD300225B16 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		0AFB00691F6F9DD300225B16 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		0AFB006A1F6F9DD300225B16 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		0AFB006B1F6F9DD300225B16 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		0AFB006C1F6F9DD300225B16 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFB006E1F6F9DD300225B16 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0AFB006F1F6F9DD300225B16 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		0AFB00701F6F9DD300225B16 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0AFB00711F6F9DD300225B16 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		0AFB00721F6F9DD300225B16 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		0AFB00731F6F9DD300225B16 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		0AFB00741F6F9DD300225B16 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		0AFB00751F6F9DD300225B16 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		0AFB00761F6F9DD300225B16 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		0AFB00771F6F9DD300225B16 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		0AFB00781F6F9DD300225B16 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		0AFB00791F6F9DD300225B16 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNAutoupdate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAutoupdate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB5E3521F78EF23008C8FB5 /* FileHash */ = {
+			isa = PBXGroup;
+			children = (
+				0AB5E3571F78F1CE008C8FB5 /* FileHash.h */,
+				0AB5E3581F78F1CE008C8FB5 /* FileHash.m */,
+			);
+			path = FileHash;
+			sourceTree = "<group>";
+		};
+		0AFB00471F6F9DD300225B16 /* RNAutoupdate */ = {
+			isa = PBXGroup;
+			children = (
+				0AB5E3521F78EF23008C8FB5 /* FileHash */,
+				0AFB00481F6F9DD300225B16 /* BSDiff */,
+				0AFB004E1F6F9DD300225B16 /* RNAutoupdate.h */,
+				0AFB004F1F6F9DD300225B16 /* RNAutoupdate.m */,
+				0AFB00501F6F9DD300225B16 /* RNAutoupgradeDownloader.h */,
+				0AFB00511F6F9DD300225B16 /* RNAutoupgradeDownloader.m */,
+				0AFB00521F6F9DD300225B16 /* RNAutoupgradeManager.h */,
+				0AFB00531F6F9DD300225B16 /* RNAutoupgradeManager.m */,
+				0AFB00541F6F9DD300225B16 /* SSZipArchive */,
+			);
+			path = RNAutoupdate;
+			sourceTree = "<group>";
+		};
+		0AFB00481F6F9DD300225B16 /* BSDiff */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB00491F6F9DD300225B16 /* BSDiff.h */,
+				0AFB004A1F6F9DD300225B16 /* BSDiff.m */,
+				0AFB004B1F6F9DD300225B16 /* bzip */,
+			);
+			path = BSDiff;
+			sourceTree = "<group>";
+		};
+		0AFB004B1F6F9DD300225B16 /* bzip */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB004C1F6F9DD300225B16 /* bspatch.c */,
+				0AFB004D1F6F9DD300225B16 /* bspatch.h */,
+			);
+			path = bzip;
+			sourceTree = "<group>";
+		};
+		0AFB00541F6F9DD300225B16 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB00551F6F9DD300225B16 /* aes */,
+				0AFB006B1F6F9DD300225B16 /* Common.h */,
+				0AFB006C1F6F9DD300225B16 /* Info.plist */,
+				0AFB006D1F6F9DD300225B16 /* minizip */,
+				0AFB00771F6F9DD300225B16 /* SSZipArchive.h */,
+				0AFB00781F6F9DD300225B16 /* SSZipArchive.m */,
+				0AFB00791F6F9DD300225B16 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		0AFB00551F6F9DD300225B16 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB00561F6F9DD300225B16 /* aes.h */,
+				0AFB00571F6F9DD300225B16 /* aes_via_ace.h */,
+				0AFB00581F6F9DD300225B16 /* aescrypt.c */,
+				0AFB00591F6F9DD300225B16 /* aeskey.c */,
+				0AFB005A1F6F9DD300225B16 /* aesopt.h */,
+				0AFB005B1F6F9DD300225B16 /* aestab.c */,
+				0AFB005C1F6F9DD300225B16 /* aestab.h */,
+				0AFB005D1F6F9DD300225B16 /* brg_endian.h */,
+				0AFB005E1F6F9DD300225B16 /* brg_types.h */,
+				0AFB005F1F6F9DD300225B16 /* entropy.c */,
+				0AFB00601F6F9DD300225B16 /* entropy.h */,
+				0AFB00611F6F9DD300225B16 /* fileenc.c */,
+				0AFB00621F6F9DD300225B16 /* fileenc.h */,
+				0AFB00631F6F9DD300225B16 /* hmac.c */,
+				0AFB00641F6F9DD300225B16 /* hmac.h */,
+				0AFB00651F6F9DD300225B16 /* prng.c */,
+				0AFB00661F6F9DD300225B16 /* prng.h */,
+				0AFB00671F6F9DD300225B16 /* pwd2key.c */,
+				0AFB00681F6F9DD300225B16 /* pwd2key.h */,
+				0AFB00691F6F9DD300225B16 /* sha1.c */,
+				0AFB006A1F6F9DD300225B16 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		0AFB006D1F6F9DD300225B16 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB006E1F6F9DD300225B16 /* crypt.h */,
+				0AFB006F1F6F9DD300225B16 /* ioapi.c */,
+				0AFB00701F6F9DD300225B16 /* ioapi.h */,
+				0AFB00711F6F9DD300225B16 /* mztools.c */,
+				0AFB00721F6F9DD300225B16 /* mztools.h */,
+				0AFB00731F6F9DD300225B16 /* unzip.c */,
+				0AFB00741F6F9DD300225B16 /* unzip.h */,
+				0AFB00751F6F9DD300225B16 /* zip.c */,
+				0AFB00761F6F9DD300225B16 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNAutoupdate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				0AFB00471F6F9DD300225B16 /* RNAutoupdate */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNAutoupdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAutoupdate" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAutoupdate;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNAutoupdate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAutoupdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNAutoupdate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB5E3591F78F218008C8FB5 /* FileHash.m in Sources */,
+				0AFB008A1F6F9DD300225B16 /* unzip.c in Sources */,
+				0AFB00871F6F9DD300225B16 /* sha1.c in Sources */,
+				0AFB00851F6F9DD300225B16 /* prng.c in Sources */,
+				0AFB00841F6F9DD300225B16 /* hmac.c in Sources */,
+				0AFB007E1F6F9DD300225B16 /* RNAutoupgradeManager.m in Sources */,
+				0AFB008B1F6F9DD300225B16 /* zip.c in Sources */,
+				0AFB007D1F6F9DD300225B16 /* RNAutoupgradeDownloader.m in Sources */,
+				0AFB00821F6F9DD300225B16 /* entropy.c in Sources */,
+				0AFB00891F6F9DD300225B16 /* mztools.c in Sources */,
+				0AFB00801F6F9DD300225B16 /* aeskey.c in Sources */,
+				0AFB00811F6F9DD300225B16 /* aestab.c in Sources */,
+				0AFB007C1F6F9DD300225B16 /* RNAutoupdate.m in Sources */,
+				0AFB00881F6F9DD300225B16 /* ioapi.c in Sources */,
+				0AFB007A1F6F9DD300225B16 /* BSDiff.m in Sources */,
+				0AFB007F1F6F9DD300225B16 /* aescrypt.c in Sources */,
+				0AFB008C1F6F9DD300225B16 /* SSZipArchive.m in Sources */,
+				0AFB007B1F6F9DD300225B16 /* bspatch.c in Sources */,
+				0AFB00861F6F9DD300225B16 /* pwd2key.c in Sources */,
+				0AFB00831F6F9DD300225B16 /* fileenc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNAutoupdate;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNAutoupdate;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAutoupdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAutoupdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
